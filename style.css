@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* hello */
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    margin: auto;
+    border: 2px solid white;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    box-shadow: 0px -14px 17px 13px #c7c2c2d9;
+   
+}
+.name-logo{
+    opacity: .67;
+    text-align: center;
+    text-shadow: none;
+}
+.navbar ul{
+    display: flex;
+    overflow: auto;
+}
+.navbar li{
+    /* float: left; */
+    list-style: none;
+}
+.navbar li a{
+    padding: 0 22px;
+    text-decoration: none;
+    opacity: .67;
+    color: black;
+}
+.navbar li:hover a{
+    text-decoration: underline;
+    font-weight: bold;
+    
+    color: black;
+}
+.navbar{
+    margin: 43px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-first-section-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.child-first-section-box{
+    position: relative;
+    height: 500px;
+    width: 583px;
+    opacity: .67;
+    /* border: 2px solid black; */
+}
+.parent-first-section-box h1{
+    font-size: 4rem;
+    margin: 10% 0;
+}
+h1{
+     text-shadow: 6px 6px 14px #9b9595;
+}
+.child-2-first-section-box img{
+    width: 100%;
+}
+.child-2-first-section-box{
+    width: 583px;
+    height: 621px;
+}
+.sec-heading{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec-heading h2{
+    font-size: 2.0rem;
+    opacity: .70;
+}
+.single{
+    /* height: 50%; */
+    /* border: 1px solid green; */
+    width: 60%;
+    margin: auto;
+    position: relative;
+    opacity: .67;
+}
+.single h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.single p{
+    padding: 0 4%;
+    text-align: center;
+    font-size: 19px
+}
+/* parent and child sec section division */
+.parent-sec-section-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
+.child-sec-section-box{
+    position: relative;
+    height: 500px;
+    width: 583px;
+    opacity: .67;
+}
+.parent-sec-section-box h1{
+    font-size: 4rem;
+    opacity: .7;
+    margin: 12% 0%;
+}
+
+.child-sec-section-box p{
+    font-size: 19px;
+    opacity: .67;
+}
+.child-2-sec-section-box img{
+    width: 100%;
+}
+.child-2-sec-section-box{
+    width: 583px;
+    height: 621px;
+}
+.common-btn{
+    height: 25px;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    padding: 13px 29px;
+    color: white;
+    font-weight: 300;
+}
+.third-heading{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    opacity: .7;
+}
+.four-box-set{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-around;
+    
+}
+.four-box-set-child{
+    height: 300px;
+    width: 366px;
+    padding: 2% 7%;
+}
+.four-box-set-child h2{
+    margin: 16px 0;
+    font-size: 25px;
+    opacity: .7;
+}
+.four-box-set-child p{
+    font-size: 20px;
+    opacity: .67;
+}
+/* third section boxes */
+.parent-third-section-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child-third-section-box{
+    position: relative;
+    height: 500px;
+    width: 583px;
+    opacity: .67;
+}
+.parent-third-section-box h1{
+    font-size: 4rem;
+    opacity: .7;
+    margin: 10% 2%;
+}
+.child-2-third-section-box img{
+    width: 100%;
+}
+.child-2-third-section-box{
+    width: 583px;
+    height: 621px;
+}
+.child-third-section-box p{
+    font-size: 19px;
+    opacity: .67;
+}
+/* last images div */
+.last-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-single-image{
+    height: 300px;
+    width: 244px;
+    padding: 7px;
+    /* border: 2px solid red; */
+}
+.last-single-image img{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.footer i{
+    font-size: 1.5rem;
+    padding: 16px 20px;
+}
