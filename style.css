@@ -67,7 +67,7 @@ header{
     margin: 10% 0;
 }
 h1{
-     text-shadow: 6px 6px 14px #9b9595;
+     text-shadow: 5px 5px 6px #3c3b3b;
 }
 .child-2-first-section-box img{
     width: 100%;
@@ -84,7 +84,7 @@ h1{
 }
 .sec-heading h2{
     font-size: 2.0rem;
-    opacity: .70;
+    opacity: .75;
 }
 .single{
     /* height: 50%; */
@@ -122,7 +122,6 @@ h1{
 }
 .parent-sec-section-box h1{
     font-size: 4rem;
-    opacity: .7;
     margin: 12% 0%;
 }
 
@@ -153,7 +152,7 @@ h1{
     font-size: 1.6rem;
     margin-top: 7%;
     margin-bottom: 3%;
-    opacity: .7;
+    opacity: .75;
 }
 .four-box-set{
     display: grid;
@@ -169,7 +168,7 @@ h1{
 .four-box-set-child h2{
     margin: 16px 0;
     font-size: 25px;
-    opacity: .7;
+    opacity: .75;
 }
 .four-box-set-child p{
     font-size: 20px;
@@ -186,11 +185,10 @@ h1{
     position: relative;
     height: 500px;
     width: 583px;
-    opacity: .67;
+    opacity: .70;
 }
 .parent-third-section-box h1{
     font-size: 4rem;
-    opacity: .7;
     margin: 10% 2%;
 }
 .child-2-third-section-box img{
@@ -228,4 +226,9 @@ h1{
 .footer i{
     font-size: 1.5rem;
     padding: 16px 20px;
+}
+.copy-right{
+    text-align: center; 
+    padding-bottom: 100px; 
+    opacity: .75;
 }
